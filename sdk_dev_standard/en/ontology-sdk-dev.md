@@ -17,15 +17,15 @@
    2  |  wallet         |  export  keystore                  |   
    3  |  wallet         |  import from keystore              |   
    4  |  wallet         |  Import from the mnemonic words    |   
-   5  |  wallet         |  Import from private key            |   
-   6  |  wallet         |  Import from WIF                    |  
-   7  |  wallet         |  Delete wallet account              |   
-   8  |  asset          |  transfer                           |   Transfer ONT,ONG
-   9  |  asset          |  query balance                      |   query balance ONT,ONG
-   10 |  asset          |  query unbound                      |   query unbound ONG
-   11 |  asset          |  withdraw ong                       |   withdraw ONG
-   12 |  rpc            |     in below                        |   
-   13 |  VM            |     build call contract parameter    |   
+   5  |  wallet         |  Import from private key           |   
+   6  |  wallet         |  Import from WIF                   |  
+   7  |  wallet         |  Delete wallet account             |   
+   8  |  asset          |  transfer                          |   Transfer ONT,ONG
+   9  |  asset          |  query balance                     |   query balance ONT,ONG
+   10 |  asset          |  query unbound                     |   query unbound ONG
+   11 |  asset          |  withdraw ong                      |   withdraw ONG
+   12 |  rpc            |  in below                          |   
+   13 |  VM             |  build call contract parameter     |   
  ```
  
 * [Function list](#function-list)
