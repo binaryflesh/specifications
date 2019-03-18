@@ -1,6 +1,5 @@
 
-# ontology sdk function list
-
+# Ontology SDK function list
 
 1. Develop a wallet file according to the wallet specification, and store the encrypted account private key of the asset account and identity in the wallet file. There is also a need for mnemonics and kestore functionality.
 
