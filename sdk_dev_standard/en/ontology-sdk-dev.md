@@ -9,23 +9,15 @@
 
 4. Complete these native smart contracts: ont, ong, ontid, auth, governance
 
- ```
-      |        Module   |      function                      |     Description            
- -----|-----------------| -----------------------------------|------------------------
-   1  |  wallet         |  Create                            |               
-   2  |  wallet         |  export  keystore                  |   
-   3  |  wallet         |  import from keystore              |   
-   4  |  wallet         |  Import from the mnemonic words    |   
-   5  |  wallet         |  Import from private key           |   
-   6  |  wallet         |  Import from WIF                   |  
-   7  |  wallet         |  Delete wallet account             |   
-   8  |  asset          |  transfer                          |   Transfer ONT,ONG
-   9  |  asset          |  query balance                     |   query balance ONT,ONG
-   10 |  asset          |  query unbound                     |   query unbound ONG
-   11 |  asset          |  withdraw ong                      |   withdraw ONG
-   12 |  rpc            |  in below                          |   
-   13 |  VM             |  build call contract parameter     |   
- ```
+| Wallet             | Asset                    | RPC             | VM                            |
+|:------------------:|:------------------------:|:---------------:|:-----------------------------:|
+| Create Account     | Transfer (ONT, ONG) 	    | See #1-http-rpc | Build call contract parameter |
+| Delete Account     | Query Balance (ONT, ONG) |                 |                               |
+| Export Keystore    | Query Unbound ONG        |                 |                               |
+| Import Keystore    | Withdraw ONG             |                 |                               |
+| Import Mnemonic    |                          |                 |                               |
+| Import Private Key |                          |                 |                               |
+| Import WIF         |                          |                 |                               |
  
 * [Function list](#function-list)
 	* [1. http rpc](#1-http-rpc)
